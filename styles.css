@@ -12,7 +12,32 @@ html {
       background-color: rgba(206, 20, 13, 0.356);
   }
 
+  .header {
+    background-image: url('sausalito.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .navbar {
+    background:#6ab446;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
   .nav-brand{
       height: 150px;
       border-radius: 5px;
   }
+
+
