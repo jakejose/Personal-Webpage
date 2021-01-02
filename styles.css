@@ -9,7 +9,8 @@ html {
   /*Custom Styling*/
 
   body{
-      background-color: rgba(206, 20, 13, 0.356);
+    font-family: 'Quantico', sans-serif;
+    font-size: xx-large;
   }
 
   .header {
@@ -17,9 +18,10 @@ html {
     background-size: cover;
     background-position: center;
     position: relative;
+    opacity: .2;
   }
   .navbar {
-    background:#6ab446;
+    background: #FFCBA4;
   }
   .nav-link,
   .navbar-brand {
