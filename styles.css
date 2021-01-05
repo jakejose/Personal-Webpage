@@ -41,5 +41,18 @@ html {
       height: 150px;
       border-radius: 5px;
   }
-
-
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #6ab446;
+  }
+  .description p {
+    color:black;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
